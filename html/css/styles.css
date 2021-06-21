@@ -1,0 +1,92 @@
+/*Importando a fonte*/
+@import url('https://fonts.googleapis.com/css2? family = Noto + Sans + JP: wght @ 300 & display = swap');
+
+/*Redefinendo as confg da pagina*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;  
+  list-style: none;
+}
+/*Fonte e cor fundo da pagina*/
+body
+{
+ font-family: "Noto Sans JP", sans-serif; 
+ color: white;
+ background-color: #0c0c0c;   
+}
+/*Definindo as confg do menu*/
+#header-estilo
+{
+ background-color: gray;
+ box-shadow: 1px 5px 5px silver;
+ text-align: center;
+ padding: 25px;
+ position: fixed;
+ top: 0px;
+ width: 100%;
+}
+#time
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+span
+{
+    top: 5px;
+    left: 10px;
+    max-width: 100%;
+    font-size: 65px;
+    position: absolute;
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+}
+p
+{
+ padding: 10px 25px;   
+ text-align: justify;
+
+
+}
+a
+{
+    color: white;
+    background-color: dimgray;
+    border: 2px solid white;
+    padding: 5px;
+    font-size: 25px;
+    margin: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+.iconWhap
+{
+  width: 8%;  
+
+}
+.whap
+{
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+.whap img
+{
+    right: 0;
+    position: fixed;
+    bottom: 10px;
+
+}
